@@ -1,0 +1,624 @@
+{
+    "home": {
+        "name":"home",
+        "ref":"home",
+        "content": "<img src='img/cartasOdioAmenazasAmor.jpg' class='img-responsive' alt='' id='mainImg' />"
+    },
+    "bio": {
+        "name":"bio",
+        "ref":"bio",
+        "subMenu":false,
+        "content": "Mora Vitali nació en Mar del Plata, en 1988. Es Licenciada y Profesora en Artes Plásticas por la UBA.<br>Cursó la carrera de Fotografía en la Escuela de Artes Visuales Martín A. Malharro.<br>Sus trabajos han recorrido espacios de arte como la histórica galería <i>Casa de Madera</i> y la sala de la <i>Biblioteca Central de la UNMDP</i>, el <i>Teatro Diagonal</i>, y centros culturales de Argentina y Venezuela.Participó en distintas muestras colectivas, en el <i>Centro Cultural Recoleta</i>, <i>Villa Victoria Ocampo</i> y <i>El Centro Cultural Auditorium</i>.<br>Sus fotos participan de publicaciones gráficas como la revista '<a href='http://gatafloramag.com/' target='_blank'>GataFlora</a>', los libros <i>'Desde adentro. Miradas del Complejo Centenario'</i> y <i>'Effy, AcDc'</i>.",
+        "subItems":[]
+    },
+    "cv": {
+        "name":"cv",
+        "subMenu":false,
+        "ref":"cv",
+        "subItems":[
+            {
+                "anio": 2018,
+                "items": [
+                {
+                    "nombre":"Publicación del libro a.C/d.C de Effy Beth",
+                    "link":""
+                },
+                {
+                    "nombre":"Creadores de Imágenes, muestra colectiva a cargo de Julia Sbriller",
+                    "link":""
+                }
+                ]
+            },
+            {
+                "anio": 2017,
+                "items": [
+                {
+                    "nombre":"Cartas de Muerte y Amenazas de Amor, exposición individual en la Casa de Madera.",
+                    "link":""
+                },
+                {
+                    "nombre":"Aquelarre, exposición colectiva de Artistas Feministas Autoconvocadas, en La Rosa Blindada.",
+                    "link":""
+                },
+                {
+                    "nombre":"Creadores de Imágenes, taller de fotografía a cargo de Julia Sbriller",
+                    "link":""
+                }
+                ]
+            },
+            {
+                "anio": 2016,
+                "items": [
+                {
+                    "nombre":"Empoderadas, exposición colectiva en El Emergente.",
+                    "link":""
+                }
+                ]
+            },
+            {
+                "anio": 2013,
+                "items": [
+                {
+                    "nombre":"ARTE contra la TRATA, Exposición colectiva coordinada por la Fundación Alameda en la Biblioteca Popular Juventud Moderna.",
+                    "link":"http://www.0223.com.ar/k/2013-7-9-arte-contra-la-trata"
+                },
+                {
+                    "nombre":"Las Mo(i)ras, Exposición individual, en Espacio de Arte Irene Melillo. ",
+                    "link":""
+                },
+                {
+                    "nombre":"Seminario sobre fotografía dictado por Gaby Herbstein.",
+                    "link":"http://www.0223.com.ar/k/2013-7-9-arte-contra-la-trata"
+                },
+                {
+                    "nombre":"Abriendo las puertas de la percepción, exposición junto a Maria Casalins en Ofelia, Casa Teatro, CABA.",
+                    "link":"http://www.arte-online.net/Agenda/Exposiciones_Muestras/Abriendo_las_puertas_de_la_percepcion"
+                }
+                ]
+            },
+            {
+                "anio": 2011,
+                "items": [
+                {
+                    "nombre":"A Simple Love Story, exposición individual. Colgada en la Casa de Madera, y en la Biblioteca Central de la UNMDP.",
+                    "link":"http://galeriacasademadera.blogspot.com.ar/2011/06/simple-love-story-muestra-fotografica.html",
+                    "video":"https://www.youtube.com/watch?v=EQy8asYEYm4"
+                }
+                ]
+            },
+            {
+                "anio": 2010,
+                "items": [
+                {
+                    "nombre":"La Mirada. Diez mujeres marplatenses, exposición colectiva en la Casa de Madera.",
+                    "link":"http://www.mdphoy.com/la-mirada-de-la-mujer-en-el-arte-16380/"
+                }
+                ]
+            },
+            {
+                "anio": 2009,
+                "items": [
+                {
+                    "nombre":"Título en Fotografía Profesional, Escuela de Artes Visuales Martín A. Malharro, Mar del Plata.",
+                    "link":""
+                },
+                {
+                    "nombre":"Sólo los superficiales se conocen a sí mismos, exposición individual en el Teatro Diagonal.",
+                    "link":""
+                },
+                {
+                    "nombre":"Novia en rojo, exposición individual acompañando la pieza teatral del mismo nombre, por el grupo de Teatro del Secadero.",
+                    "link":""
+                },
+                {
+                    "nombre":"El Viaje, exposición colectiva expuesta en el Centro Cultural Recoleta.",
+                    "link":""
+                },
+                {
+                    "nombre":"La Pampa, exposición colectiva con la Universidad de Birmingham, en el centro cultural Villa Victoria Ocampo.",
+                    "link":""
+                }
+                ]
+            },
+            {
+                "anio": 2008,
+                "items": [
+                {
+                    "nombre":"Homenaje a Piazzolla, exposición colectiva en el centro cultural Villa Victoria Ocampo.",
+                    "link":""
+                },
+                {
+                    "nombre":"Técnica Ayudante en el seminario Manipulación de Imágenes con Medios Digitales Universidad Tecnológica Nacional.",
+                    "link":""
+                },
+                {
+                    "nombre":"A la manera de Hockney, exposición colectiva, SUM de la escuela de Artes Visuales, SUM de La Trattoria.",
+                    "link":""
+                }
+                ]
+            },
+            {
+                "anio": 2007,
+                "items": [
+                {
+                    "nombre":"Tecnicatura en Fotografía, Escuela de Artes Visuales Martín A. Malharro, Mar del Plata.",
+                    "anio":"2007",
+                    "link":""
+                },
+                {
+                    "nombre":"Vida, exposición al aire libre en la plaza San Martín, organizada por la Federación de Estudiantes Secundarios en conmemoración al aniversario de la Noche de los Lápices.",
+                    "anio":"2007",
+                    "link":""
+                }
+                ]
+            },
+            {
+                "anio": 2006,
+                "items": [
+                {
+                    "nombre":"Desde adentro. Miradas del Complejo Centenario, exposición colectiva en la Facultad de Humanidades. Participación con una fotografía del libro del mismo título.",
+                    "anio":"2006",
+                    "link":""
+                }
+                ]
+            }
+        ]
+    },
+    "publicaciones": {
+        "name":"publicaciones",
+        "ref":"publicaciones",
+        "subMenu":false,
+        "subItems":[
+            {
+                "id":1,
+                "titulo":"Joseph Beuys: de liebre a coyote",
+                "link":"http://proa.org/documents/9-Mora-Vitali.pdf",
+                "img":"img/publicaciones/beuys.png"
+            },
+            {
+                "id":2,
+                "titulo":"Bienestar Entrevista",
+                "link":"https://www.0223.com.ar/nota/2014-2-3-lo-que-funciona-y-lo-que-no-funciona",
+                "img":"img/publicaciones/bienestar.jpg"
+            },
+            {
+                "id":3,
+                "titulo":"Alice Austen y la performance de masculinidad",
+                "link":"http://somosturma.com/mujeres-que-se-miran-alice-austen/",
+                "img":"img/publicaciones/fotografiayfeminismo2.jpg"
+            },
+            {
+                "id":4,
+                "titulo":"Grete Stern y Annemarie Heinrich: el autorretrato como parte de la praxis profesional",
+                "link":"http://somosturma.com/fotografia-y-feminismo-2/",
+                "img":"img/publicaciones/mujeresquesemiranaliceausten.jpg"
+            },
+            {
+                "id":5,
+                "titulo":"Sobre Cartas de Muerte y Amenazas de Amor",
+                "link":"http://escriturasindie.blogspot.com.ar/2017/08/visuales-mora-vitali.html",
+                "img":"img/publicaciones/visualesmoravitali.jpg"
+            },
+            {
+                "id":6,
+                "titulo":"Entrevista a Lucia Reissig. Explorando el territorio de la invisibilidad",
+                "link":"https://escriturasindie.blogspot.com.ar/2017/12/que-sea-todo.html",
+                "img":"img/publicaciones/queseatodo.jpg"
+            },
+            {
+                "id":7,
+                "titulo":"Francesca Woodman y la puesta en escena de sí misma",
+                "link":"http://somosturma.com/fotografia-y-feminismo-3/",
+                "img":"img/publicaciones/Francesca-Woodman-Self-deceit-web.jpg"
+            }
+        ]
+    },
+    "portfolio": {
+        "name": "portfolio",
+        "ref":"portfolio",
+        "subMenu":true,
+        "subItems":[ 
+            {
+                "name":"Cartas de muerte y amenazas de amor.",
+                "ref":"cartas",
+                "items":[ 
+                    {
+                        "id":0,
+                        "type":"txt",
+                        "titulo":"Cartas de muerte y amenazas de amor.",
+                        "content":"Accidente es un concepto metafísico, propuesto por Aristóteles. <br>Aristóteles dice que el ser está compuesto por la sustancia, inmutable salvo por los momentos de generacion y corrupcion, y que lo demás está determinado por los accidentes. <br>Los accidentes son mutables. Entonces, si el ser de la sustancia es una persona, puede morir, o nacer. Todo lo demás es accidente. Tamaño, accidente. Forma, accidente. Color, accidente. Lugar, accidente. Relación, accidente. Pasión, accidente. Cuerpo, accidente. <br><br>Para la fotografía, la sustancia sería algo así como la luz, tal vez la luz combinada con el instante. Lo demas es accidente.",
+                        "thumbnail":"img/photo/asimplelovestori_02_thumb.jpg"
+                    },
+                    {
+                        "id":1,
+                        "type":"img",
+                        "titulo":"Titulo 1",
+                        "content":"img/photo/cartasOdioAmenazasAmor_01.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_01_thumb.jpg"
+                    },
+                    {
+                        "id":2,
+                        "type":"img",
+                        "titulo":"Titulo 2",
+                        "content":"img/photo/cartasOdioAmenazasAmor_02.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_02_thumb.jpg"
+                    },
+                    {
+                        "id":3,
+                        "type":"img",
+                        "titulo":"Titulo 3",
+                        "content":"img/photo/cartasOdioAmenazasAmor_03.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_03_thumb.jpg"
+                    },
+                    {
+                        "id":4,
+                        "type":"img",
+                        "titulo":"Titulo 4",
+                        "content":"img/photo/cartasOdioAmenazasAmor_04.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_04_thumb.jpg"
+                    }, {
+                        "id":5,
+                        "type":"img",
+                        "titulo":"Titulo 5",
+                        "content":"img/photo/cartasOdioAmenazasAmor_05.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_05_thumb.jpg"
+                    }, {
+                        "id":6,
+                        "type":"img",
+                        "titulo":"Titulo 6",
+                        "content":"img/photo/cartasOdioAmenazasAmor_06.jpg",
+                        "thumbnail":"imgimg/photo/cartasOdioAmenazasAmor_thumb.jpg"
+                    },
+                    {
+                        "id":7,
+                        "type":"img",
+                        "titulo":"Titulo 7",
+                        "content":"img/photo/cartasOdioAmenazasAmor_07.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_07_thumb.jpg"
+                    },
+                    {
+                        "id":8,
+                        "type":"img",
+                        "titulo":"Titulo 8",
+                        "content":"img/photo/cartasOdioAmenazasAmor_08.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_08_thumb.jpg"
+                    },
+                    {
+                        "id":9,
+                        "type":"img",
+                        "titulo":"Titulo 9",
+                        "content":"img/photo/cartasOdioAmenazasAmor_09.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_09_thumb.jpg"
+                    },
+                    {
+                        "id":10,
+                        "type":"img",
+                        "titulo":"Titulo 10",
+                        "content":"img/photo/cartasOdioAmenazasAmor_10.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_10_thumb.jpg"
+                    },
+                    {
+                        "id":11,
+                        "type":"img",
+                        "titulo":"Titulo 11",
+                        "content":"img/photo/cartasOdioAmenazasAmor_11.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_11_thumb.jpg"
+                    },
+                    {
+                        "id":12,
+                        "type":"img",
+                        "titulo":"Titulo 12",
+                        "content":"img/photo/cartasOdioAmenazasAmor_12.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_12_thumb.jpg"
+                    },
+                    {
+                        "id":13,
+                        "type":"img",
+                        "titulo":"Titulo 13",
+                        "content":"img/photo/cartasOdioAmenazasAmor_13.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_13_thumb.jpg"
+                    },
+                    {
+                        "id":14,
+                        "type":"img",
+                        "titulo":"Titulo 14",
+                        "content":"img/photo/cartasOdioAmenazasAmor_14.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_14_thumb.jpg"
+                    },
+                    {
+                        "id":15,"type":"img",
+                        "titulo":"Titulo 15",
+                        "content":"img/photo/cartasOdioAmenazasAmor_15.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_15_thumb.jpg"
+                    },
+                    {
+                        "id":15,"type":"img",
+                        "titulo":"Titulo 16",
+                        "content":"img/photo/cartasOdioAmenazasAmor_5.jpg",
+                        "thumbnail":"img/photo/cartasOdioAmenazasAmor_15_thumb.jpg"
+                    }
+                ]
+            },
+            {
+                "name":"a simple love story",
+                "ref":"lovestory",
+                "items":[
+                    {
+                        "id":1,
+                        "type":"img",
+                        "titulo":"Titulo 1",
+                        "content":"img/photo/asimplelovestori_01.jpg",
+                        "thumbnail":"img/photo/asimplelovestori_01_thumb.jpg"
+                    },
+                    {
+                        "id":3,
+                        "type":"img",
+                        "titulo":"Titulo 3",
+                        "content":"img/photo/asimplelovestori_03.jpg",
+                        "thumbnail":"img/photo/asimplelovestori_03_thumb.jpg"
+                    },
+                    {
+                        "id":4,
+                        "type":"img",
+                        "titulo":"Titulo 4",
+                        "content":"img/photo/asimplelovestori_04.jpg",
+                        "thumbnail":"img/photo/asimplelovestori_04_thumb.jpg"
+                    },
+                    {
+                        "id":5,
+                        "type":"img",
+                        "titulo":"Titulo 5",
+                        "content":"img/photo/asimplelovestori_05.jpg",
+                        "thumbnail":"img/photo/asimplelovestori_05_thumb.jpg"
+                    },
+                    {
+                        "id":6,
+                        "type":"img",
+                        "titulo":"Titulo 6",
+                        "content":"img/photo/asimplelovestori_06.jpg",
+                        "thumbnail":"img/photo/asimplelovestori_06_thumb.jpg"
+                    },
+                    {
+                        "id":7,
+                        "type":"img",
+                        "titulo":"Titulo 7",
+                        "content":"img/photo/asimplelovestori_07.jpg",
+                        "thumbnail":"img/photo/asimplelovestori_07_thumb.jpg"
+                    },
+                    {
+                        "id":8,
+                        "type":"img",
+                        "titulo":"Titulo 8",
+                        "content":"img/photo/asimplelovestori_08.jpg",
+                        "thumbnail":"img/photo/asimplelovestori_08_thumb.jpg"
+                    },
+                    {
+                        "id":9,
+                        "type":"img",
+                        "titulo":"Titulo 9",
+                        "content":"img/photo/asimplelovestori_09.jpg",
+                        "thumbnail":"img/photo/asimplelovestori_09_thumb.jpg"
+                    },
+                    {
+                        "id":10,
+                        "type":"img",
+                        "titulo":"Titulo 10",
+                        "content":"img/photo/asimplelovestori_10.jpg",
+                        "thumbnail":"img/photo/asimplelovestori_10_thumb.jpg"
+                    },
+                    {
+                        "id":11,
+                        "type":"img",
+                        "titulo":"Titulo 11",
+                        "content":"img/photo/asimplelovestori_11.jpg",
+                        "thumbnail":"img/photo/asimplelovestori_11_thumb.jpg"
+                    },
+                    {
+                        "id":12,
+                        "type":"img",
+                        "titulo":"Titulo 12",
+                        "content":"img/photo/asimplelovestori_12.jpg",
+                        "thumbnail":"img/photo/asimplelovestori_12_thumb.jpg"
+                    },
+                    {
+                        "id":13,
+                        "type":"img",
+                        "titulo":"Titulo 13",
+                        "content":"img/photo/asimplelovestori_13.jpg",
+                        "thumbnail":"img/photo/asimplelovestori_13_thumb.jpg"
+                    },
+                    {
+                        "id":14,
+                        "type":"img",
+                        "titulo":"Titulo 14",
+                        "content":"img/photo/asimplelovestori_14.jpg",
+                        "thumbnail":"img/photo/asimplelovestori_14_thumb.jpg"
+                    },
+                    {
+                        "id":15,"type":"img",
+                        "titulo":"Titulo 15",
+                        "content":"img/photo/asimplelovestori_15.jpg",
+                        "thumbnail":"img/photo/asimplelovestori_15_thumb.jpg"
+                    }
+                ]
+            },
+            {
+                "name":"novia en rojo",
+                "ref":"noviaenrojo",
+                "items":[
+                    {
+                        "id":1,
+                        "type":"img",
+                        "titulo":"Titulo 1",
+                        "content":"img/photo/noviaenrojo_1.jpg",
+                        "thumbnail":"img/photo/noviaenrojo_1_thumb.jpg"
+                    },
+                    {
+                        "id":2,
+                        "type":"img",
+                        "titulo":"Titulo 2",
+                        "content":"img/photo/noviaenrojo_2.jpg",
+                        "thumbnail":"img/photo/noviaenrojo_2_thumb.jpg"
+                    },
+                    {
+                        "id":3,
+                        "type":"img",
+                        "titulo":"Titulo 3",
+                        "content":"img/photo/noviaenrojo_3.jpg",
+                        "thumbnail":"img/photo/noviaenrojo_3_thumb.jpg"
+                    },
+                    {
+                        "id":4,
+                        "type":"img",
+                        "titulo":"Titulo 4",
+                        "content":"img/photo/noviaenrojo_4.jpg",
+                        "thumbnail":"img/photo/noviaenrojo_4_thumb.jpg"
+                    },
+                    {
+                        "id":5,
+                        "type":"img",
+                        "titulo":"Titulo 5",
+                        "content":"img/photo/noviaenrojo_5.jpg",
+                        "thumbnail":"img/photo/noviaenrojo_5_thumb.jpg"
+                    },
+                    {
+                        "id":6,
+                        "type":"img",
+                        "titulo":"Titulo 6",
+                        "content":"img/photo/noviaenrojo_6.jpg",
+                        "thumbnail":"img/photo/noviaenrojo_6_thumb.jpg"
+                    }
+                ]
+            },
+            {
+                "name":"Analogicas",
+                "ref":"analogicas",
+                "items":[
+                    {
+                        "id":1,
+                        "type":"img",
+                        "titulo":"Titulo 1",
+                        "content":"img/photo/toycams_1.JPG",
+                        "thumbnail":"img/photo/toycams_1_thumb.jpg"
+                    },
+                    {
+                        "id":2,
+                        "type":"img",
+                        "titulo":"Titulo 2",
+                        "content":"img/photo/toycams_2.JPG",
+                        "thumbnail":"img/photo/toycams_2_thumb.jpg"
+                    },
+                    {
+                        "id":4,
+                        "type":"img",
+                        "titulo":"Titulo 4",
+                        "content":"img/photo/toycams_4.JPG",
+                        "thumbnail":"img/photo/toycams_4_thumb.jpg"
+                    },
+                    {
+                        "id":5,
+                        "type":"img",
+                        "titulo":"Titulo 5",
+                        "content":"img/photo/toycams_5.JPG",
+                        "thumbnail":"img/photo/toycams_5_thumb.jpg"
+                    }
+                ]
+            },
+            {
+                "name":"las mo(i)ras",
+                "ref":"lasmoiras",
+                "items":[
+                        {
+                            "id":1,
+                            "type":"img",
+                            "titulo":"Titulo 1",
+                            "content":"img/photo/las_moiras_1.jpg",
+                            "thumbnail":"img/photo/las_moiras_1_thumb.jpg"
+                        },
+                        {
+                            "id":2,
+                            "type":"img",
+                            "titulo":"Titulo 2",
+                            "content":"img/photo/las_moiras_2.jpg",
+                            "thumbnail":"img/photo/las_moiras_2_thumb.jpg"
+                        },
+                        {
+                            "id":3,
+                            "type":"img",
+                            "titulo":"Titulo 3",
+                            "content":"img/photo/las_moiras_3.jpg",
+                            "thumbnail":"img/photo/las_moiras_3_thumb.jpg"
+                        },
+                        {
+                            "id":4,
+                            "type":"img",
+                            "titulo":"Titulo 4",
+                            "content":"img/photo/las_moiras_4.jpg",
+                            "thumbnail":"img/photo/las_moiras_4_thumb.jpg"
+                        },
+                        {
+                            "id":5,
+                            "type":"img",
+                            "titulo":"Titulo 5",
+                            "content":"img/photo/las_moiras_5.jpg",
+                            "thumbnail":"img/photo/las_moiras_5_thumb.jpg"
+                        },
+                        {
+                            "id":6,
+                            "type":"img",
+                            "titulo":"Titulo 6",
+                            "content":"img/photo/las_moiras_6.jpg",
+                            "thumbnail":"img/photo/las_moiras_6_thumb.jpg"
+                        },
+                        {
+                            "id":7,
+                            "type":"img",
+                            "titulo":"Titulo 7",
+                            "content":"img/photo/las_moiras_7.jpg",
+                            "thumbnail":"img/photo/las_moiras_7_thumb.jpg"
+                        },
+                        {
+                            "id":8,
+                            "type":"img",
+                            "titulo":"Titulo 8",
+                            "content":"img/photo/las_moiras_8.jpg",
+                            "thumbnail":"img/photo/las_moiras_8_thumb.jpg"
+                    }
+                ]
+            },
+            {
+                "name":"arte contra la trata",
+                "ref":"artecontralatrata",
+                "items":[
+                    {
+                        "id":1,
+                        "type":"img",
+                        "titulo":"Titulo 1",
+                        "content":"img/photo/alameda_1.jpg",
+                        "thumbnail":"img/photo/alameda_1_thumb.jpg"
+                    },
+                    {
+                        "id":2,
+                        "type":"img",
+                        "titulo":"Titulo 2",
+                        "content":"img/photo/alameda_2.jpg",
+                        "thumbnail":"img/photo/alameda_2_thumb.jpg"
+                    },
+                    {
+                        "id":3,
+                        "type":"img",
+                        "titulo":"Titulo 3",
+                        "content":"img/photo/alameda_3.jpg",
+                        "thumbnail":"img/photo/alameda_3_thumb.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    "contacto": {
+        "name":"contacto",
+        "subMenu":false,
+        "ref":"contacto",
+        "subItems":[]
+    }
+}
