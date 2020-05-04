@@ -1,5 +1,5 @@
 <template>
-  <div class="contentViewer">
+  <div class="contentViewer" id="contentViewer">
     <div class="titlecontainer">
       <h2 v-if="currentPage.name && currentPage.name !== 'home'" v-html="currentPage.name"></h2><span v-if="currentPage.child"> > <h3>{{currentPage.child.name}}</h3></span>
     </div>
@@ -43,24 +43,47 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
   .contentContainer {
-    margin-top: 56px;
+    margin-top: 47px;
   }
   .contentViewer {
-    width: 80%;
     float: left;
     text-align: left;
-    margin-top: 46px;
+    padding-top: 41px;
+    padding-right: 25px;
     line-height: 1.4em !important;
     position: absolute;
     right: 0;
-    left: 20%;
+    width: auto;
+    top: 0;
+    bottom: 0;
+    left: 200px;
+    overflow-x: scroll;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    @include for-tablet-landscape-up {
+      left: 300px !important;
+    }
   }
 
   .titlecontainer {
     position: fixed;
-    top: 65px;
   }
   .titlecontainer h2,
   .titlecontainer h3 {

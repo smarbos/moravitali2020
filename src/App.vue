@@ -71,7 +71,7 @@ export default {
       let delta = Math.max(-1, Math.min(1, (event.wheelDelta || -event.detail)))
       delta = delta / -1
       console.log(delta)
-      window.scrollBy(delta * 100, 0)
+      document.getElementById('contentViewer').scrollBy(delta * 100, 0)
     }
   },
   created () {
@@ -110,14 +110,29 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
 #app {
   font-family: monospace;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: black;
   margin: 0;
 }
 p {

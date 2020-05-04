@@ -63,7 +63,22 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
 #themeSwitch {
   position:fixed;
   bottom: 10px;
@@ -76,18 +91,22 @@ export default {
   opacity: 0.7;
 }
 .sidebar {
-  width: 16%;
+  width: 200px;
   float: left;
   text-align: left;
-  height: 97vh;
   z-index: 999;
   position: fixed;
   padding-left: 25px;
+  padding-right: 25px;
   left: 0;
-  top: 50px;
+  top: 0px;
+  bottom: 0;
+  box-sizing: border-box;
   background-color: white;
+  @include for-tablet-landscape-up {
+    width: 300px;
+  }
 }
-
 .colores .sidebar {
   background-color: transparent !important;
 }
@@ -98,6 +117,7 @@ a {
 }
 h1 {
   margin: 0;
+  margin-top:25px;
   margin-left: 10px;
   font-size: 2.5em;
   margin-bottom: 25px;
@@ -113,4 +133,5 @@ li {
   display: block;
   margin: 12px;
 }
+
 </style>

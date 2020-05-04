@@ -23,7 +23,6 @@ export default {
 
 <style scoped>
 .galeria {
-    margin: 20px 0;
     display: inline-flex;
 }
 
@@ -44,12 +43,12 @@ export default {
 }
 
 .galeria p {
-    min-width: 20vw;
+    min-width: 300px;
     margin: 0;
     margin-right:20px;
 }
 .galeria img {
-    height: 75vh;
+    height: 82vh;
     margin:0;
     margin-right: 20px;
 }

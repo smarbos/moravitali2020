@@ -22,22 +22,52 @@ export default {
 }
 </script>
 
-<style scoped>
-.publicaciones,
+<style lang="scss" scoped>
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
+  .publicaciones,
   .publicacion {
-    margin: 20px 0;
     display: inline-block;
     width: 100%;
   }
 
   .publicacion {
-    width: 350px;
-    margin-right: 20px;
+    height: 250px;
+    width: 250px;
     position: relative;
-    height: 350px;
     background-position: center;
     background-size: cover;
-    margin-bottom: 0;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    opacity: 1;
+    @include for-tablet-landscape-up {
+      opacity: 0.3;
+      height: 250px !important;
+      width: 250px !important;
+    }
+    @include for-tablet-portrait-up {
+      opacity: 1;
+      height: 200px;
+      width: 300px;
+    }
+    @include for-desktop-up {
+      opacity: 0.1 !important;
+      height: 400px !important;
+      width: 400px !important;
+    }
   }
 
   .publicacion h3 {
@@ -49,6 +79,12 @@ export default {
     margin-left: 15px;
     font-size: 2em;
     line-height:1.2em;
+    @include for-tablet-portrait-up {
+      font-size: 1.4em;
+      margin: 10px;
+      margin-left: 10px;
+      bottom: 10px;
+    }
   }
   .publicacion:hover h3{
     color: black;
