@@ -48,14 +48,14 @@ export default {
     margin-top: 56px;
   }
   .contentViewer {
-    width: 84%;
-    float:left;
+    width: 80%;
+    float: left;
     text-align: left;
     margin-top: 46px;
-    max-width: 1200px;
-    margin-left: 20%;
-    line-height:1.4em !important;
+    line-height: 1.4em !important;
     position: absolute;
+    right: 0;
+    left: 20%;
   }
 
   .titlecontainer {

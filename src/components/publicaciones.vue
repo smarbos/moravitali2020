@@ -1,9 +1,8 @@
 <template>
     <div class="publicaciones">
-      <div v-for="item in currentPage.subItems" :key="item.id" class="publicacion">
+      <div v-for="item in currentPage.subItems" :key="item.id" class="publicacion" v-bind:style="{ backgroundImage: 'url(' + '/' + item.img + ')' }">
         <a :href="item.link" class="box">
           <div class="overlay"></div>
-          <img :src="'/'+item.img" />
           <h3>{{item.titulo}}</h3>
         </a>
       </div>
@@ -27,13 +26,18 @@ export default {
 .publicaciones,
   .publicacion {
     margin: 20px 0;
-    display: inline-flex;
+    display: inline-block;
+    width: 100%;
   }
 
   .publicacion {
-    width: auto;
+    width: 350px;
     margin-right: 20px;
-    min-width: 20vw;
+    position: relative;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
   }
 
   .publicacion h3 {
@@ -42,8 +46,15 @@ export default {
     bottom: 15px;
     left: 15px;
     margin: 15px;
-    margin-left: 30px;
+    margin-left: 15px;
     font-size: 2em;
+    line-height:1.2em;
+  }
+  .publicacion:hover h3{
+    color: black;
+  }
+  .publicacion h3:hover h3{
+    color: black;
   }
 
   .publicacion .overlay {
@@ -52,25 +63,21 @@ export default {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 3px;
+    bottom: 0;
     opacity: 0.5;
   }
-  .publicacion:hover h3{
-    color: black;
-  }
-  .publicacion .overlay:hover {
+  .publicacion:hover .overlay{
     opacity: 0.2;
     background-color: white;
   }
-  .publicacion img {
-    filter: grayscale(100%) saturate(-50) hue-rotate(320deg);
-    -webkit-filter: grayscale(100%) saturate(-50) hue-rotate(320deg);
+   .publicacion h3 .overlay:hover{
+    opacity: 0.2;
+    background-color: white;
   }
+
   .publicaciones img {
-    height: 75vh;
+    width: 100%;
     margin:0;
   }
-  .publicacion {
-    position:relative;
-  }
+
 </style>

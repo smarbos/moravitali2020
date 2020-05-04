@@ -23,6 +23,10 @@
     <a href="https://www.instagram.com/hagia_mora/" target="_blank" id="instagramLogo">
       <img src="/img/instagram.png" width="25px" height="25px" />
     </a>
+    <h5 id="themeSwitch" @click="$emit('updateTheme')">
+    <span v-if="this.$parent.whiteTheme">¿Menos colores?</span>
+    <span v-if="!this.$parent.whiteTheme">¡Mas colores!</span>
+    </h5>
   </div>
 </template>
 
@@ -35,6 +39,7 @@ export default {
   },
   data: function () {
     return {
+      switch: true
     }
   },
   computed: {
@@ -53,14 +58,19 @@ export default {
       console.log('-------')
       return menu
     }
-  },
-  methods: {
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#themeSwitch {
+  position:fixed;
+  bottom: 10px;
+  left:30px;
+  font-size:1em;
+  cursor: pointer;
+}
 #instagramLogo {
   margin-left: 15px;
   opacity: 0.7;
@@ -75,6 +85,11 @@ export default {
   padding-left: 25px;
   left: 0;
   top: 50px;
+  background-color: white;
+}
+
+.colores .sidebar {
+  background-color: transparent !important;
 }
 a {
   color: inherit;

@@ -2,7 +2,8 @@
   <div id="app" ref="App">
     <sidebar
       :menuData="sideMenuData"
-      v-on:updateContentPlease="updateContent($event)">
+      v-on:updateContentPlease="updateContent($event)"
+      v-on:updateTheme="changeTheme($event)">
     </sidebar>
     <contentViewer
       :currentPage="currentPage">
@@ -24,10 +25,20 @@ export default {
   data () {
     return {
       sideMenuData: estructura,
-      currentPage: estructura.home
+      currentPage: estructura.home,
+      whiteTheme: true
     }
   },
   methods: {
+    toggleBodyClass (addRemoveClass, className) {
+      const el = document.body
+
+      if (addRemoveClass === 'addClass') {
+        el.classList.add(className)
+      } else {
+        el.classList.remove(className)
+      }
+    },
     updateContent: function (contentId) {
       console.log('----- updateContent')
       const mainSection = contentId[0]
@@ -45,6 +56,15 @@ export default {
         console.log(childElements)
       }
       this.currentPage = holder
+    },
+    changeTheme: function () {
+      console.log('switchTheme')
+      this.whiteTheme = !this.whiteTheme
+      if (this.whiteTheme) {
+        this.toggleBodyClass('addClass', 'colores')
+      } else {
+        this.toggleBodyClass('removeClass', 'colores')
+      }
     },
     handleScroll (event) {
       console.log(event)
@@ -103,7 +123,7 @@ export default {
 p {
   line-height: 1.30em;
 }
-body {
+body.colores {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
