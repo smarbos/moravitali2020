@@ -76,6 +76,7 @@ export default {
   },
   created () {
     window.addEventListener('mousewheel', this.handleScroll)
+    this.toggleBodyClass('addClass', 'colores')
   },
   destroyed () {
     window.removeEventListener('mousewheel', this.handleScroll)
@@ -137,6 +138,9 @@ export default {
 }
 p {
   line-height: 1.30em;
+}
+#mainImg {
+  height: 82vh;
 }
 body.colores {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);

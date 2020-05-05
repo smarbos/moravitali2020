@@ -52,19 +52,15 @@ export default {
     background-size: cover;
     margin-right: 20px;
     margin-bottom: 15px;
-    opacity: 1;
     @include for-tablet-landscape-up {
-      opacity: 0.3;
       height: 250px !important;
       width: 250px !important;
     }
     @include for-tablet-portrait-up {
-      opacity: 1;
       height: 200px;
       width: 300px;
     }
     @include for-desktop-up {
-      opacity: 0.1 !important;
       height: 400px !important;
       width: 400px !important;
     }

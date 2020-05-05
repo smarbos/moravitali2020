@@ -1,4 +1,5 @@
 module.exports = {
+  publicssPath: '/moravitali2020/dist/',
   module: {
     loaders: [
       {
