@@ -21,7 +21,7 @@
       </li>
     </ul>
     <a href="https://www.instagram.com/hagia_mora/" target="_blank" id="instagramLogo">
-      <img src="/img/instagram.png" width="25px" height="25px" />
+      <img src="img/instagram.png" width="25px" height="25px" />
     </a>
     <h5 id="themeSwitch" @click="$emit('updateTheme')">
     <span v-if="this.$parent.whiteTheme">¿Menos colores?</span>
@@ -53,9 +53,6 @@ export default {
           })
         }
       })
-      console.log('-------')
-      console.log(menu)
-      console.log('-------')
       return menu
     }
   }
