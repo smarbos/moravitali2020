@@ -74,7 +74,7 @@ export default {
     top: 0;
     bottom: 0;
     left: 200px;
-    overflow-x: scroll;
+    overflow-x: auto;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     @include for-tablet-landscape-up {

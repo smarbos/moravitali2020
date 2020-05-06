@@ -2,7 +2,7 @@
     <div class="galeria">
       <div v-for="item in currentPage.child.items" :key="item.titulo">
         <p v-if="item.type === 'txt'" v-html="item.content"></p>
-        <img v-if="item.type === 'img'" :src="'/'+item.content" />
+        <img v-if="item.type === 'img'" :src="item.content" />
         <ul>
           <span v-for="subitem in item.items" :key="subitem.nombre">
               <li>{{subitem.nombre}}</li>

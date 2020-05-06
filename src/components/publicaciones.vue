@@ -1,6 +1,6 @@
 <template>
     <div class="publicaciones">
-      <div v-for="item in currentPage.subItems" :key="item.id" class="publicacion" v-bind:style="{ backgroundImage: 'url(' + '/' + item.img + ')' }">
+      <div v-for="item in currentPage.subItems" :key="item.id" class="publicacion" v-bind:style="{ backgroundImage: 'url(' + item.img + ')' }">
         <a :href="item.link" class="box">
           <div class="overlay"></div>
           <h3>{{item.titulo}}</h3>
